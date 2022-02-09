@@ -16,9 +16,9 @@
 
 ## Author
 
-- GitHub: [@githubhandle](https://github.com/ksigei)
-- Twitter: [@twitterhandle](https://twitter.com/@_kipronojaphet)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/@_kipronojaphet)
+- GitHub: [@ksigei](https://github.com/ksigei)
+- Twitter: [@_kipronojaphet](https://twitter.com/@_kipronojaphet)
+
 
 ## 🤝 Contributing
 
