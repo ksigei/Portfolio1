@@ -2,9 +2,12 @@
 
 # Project Name
 
-> Milestone 1 on portfolio mobile version
+> Milestone 2 on portfolio mobile version
 
 ![screenshot](./images/screenshot.png)
+![screenshot](./images/Screenshot1.png)
+![screenshot](./images/Screenshot2.png)
+![screenshot](./images/Screenshot3.png)
 
 ## Built With
 
