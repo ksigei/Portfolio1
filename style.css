@@ -136,10 +136,11 @@
   color: #1a2236;
 }
 
-#project-view {
+.project-view {
   margin-top: 20px;
   background-color: #1a2236;
-  border: 1px solid #fff;
+  border: 2px solid #8d8c8c;
+
 }
 
 .project-view-union {
@@ -203,6 +204,7 @@
   line-height: 24px;
   text-align: center;
   color: #fff;
+
 }
 
 .cv-btn {
@@ -215,18 +217,18 @@
 
 .langs {
   width: 289px;
-  height: 289px;
+  height: 345px;
   background: #1c528a;
   margin-top: 40px;
 }
 
-#content-list {
+.content-list {
   margin-left: 50px;
   color: #fff;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
-#content-list h3 {
+.content-list h3 {
   margin-left: 27px;
 }
 
@@ -241,20 +243,20 @@
 
 .frameworks {
   width: 289px;
-  height: 289px;
+  height: 345px;
   background: #e2505c;
   margin-top: 16px;
 }
 
 .skills {
   width: 289px;
-  height: 289px;
+  height: 345px;
   background: #febf52;
   margin-top: 16px;
 }
 
-.langs-section img {
-  margin-left: 193px;
-  width: 96px;
-  height: 80px;
+.content-list img {
+  float: right;    
+  margin: 0 0 0 335px;
 }
+
