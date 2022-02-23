@@ -1,26 +1,23 @@
 .header-img-left {
-  position: absolute;
   width: 111px;
   height: 74px;
-  left: 0;
-  top: 0;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 .header-nav-lg {
-  position: absolute;
   width: 20px;
   height: 14px;
-  left: 284px;
-  top: 19px;
+  margin-left: 284px;
+  margin-top: -70px;
   background: #1a2236;
 }
 
 .about-container {
-  position: absolute;
   width: 288px;
   height: 336px;
-  left: 16px;
-  top: 104px;
+  margin-left: 16px;
+  margin-top: 104px;
 }
 
 .header-my-name {
@@ -31,7 +28,7 @@
 }
 
 .header-my-name h1 {
-  font-family: Playfair Display, Arial, Helvetica, sans-serif;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -64,12 +61,10 @@
   background: #1a2236;
 }
 
-button {
+.about-container button {
   width: 288px;
   height: 50px;
-  left: 16px;
-  top: 390px;
-  background: #1a2236;
+  background-color: #1a2236;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -77,12 +72,190 @@ button {
   line-height: 24px;
   text-align: center;
   color: rgb(255, 255, 255);
+  border-style: none;
 }
 
 .header-img-bottom {
-  position: absolute;
   width: 320px;
   height: 160px;
-  left: 0;
-  top: 472px;
+  margin-left: 0;
 }
+
+/* projects */
+.union {
+  width: 20.57px;
+  height: 15.35px;
+  margin-left: 166px;
+  background: #fff;
+}
+
+.project-img {
+  width: 320px;
+  height: 186px;
+  margin-left: 0;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-lg {
+  width: 320px;
+  height: 156px;
+  margin-top: -8px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+}
+
+.project-lg-1 {
+  width: 264px;
+  height: 16px;
+  margin-left: 20px;
+}
+
+.project-lg-1 h3 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.project-btn-1 {
+  background: #98dede;
+  border-style: none;
+}
+
+.btn-p {
+  width: 49px;
+  height: 8px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.project-view {
+  margin-top: 20px;
+  background-color: #1a2236;
+  border: 2px solid #8d8c8c;
+}
+
+.project-view-union {
+  width: 124px;
+  height: 24px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+/* about */
+.about {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.about-me {
+  width: 288px;
+  height: 278px;
+}
+
+.about-me h1 {
+  width: 134px;
+  height: 50px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.about-me p {
+  width: 288px;
+  height: 126px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+}
+
+#about-view {
+  width: 288px;
+  height: 50px;
+  background: #1a2236;
+}
+
+.project-view-btn {
+  width: 86px;
+  height: 24px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.cv-btn {
+  width: 24px;
+  height: 18px;
+  margin-left: 201px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+
+.langs {
+  width: 289px;
+  height: 345px;
+  background: #1c528a;
+  margin-top: 40px;
+}
+
+.content-list {
+  margin-left: 50px;
+  color: #fff;
+  padding-top: 40px;
+}
+
+.content-list h3 {
+  margin-left: 27px;
+}
+
+.content-list ul li {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+}
+
+.frameworks {
+  width: 289px;
+  height: 345px;
+  background: #e2505c;
+  margin-top: 16px;
+}
+
+.skills {
+  width: 289px;
+  height: 345px;
+  background: #febf52;
+  margin-top: 16px;
+}
+
+.content-list img {
+  float: right;    
+  margin: 0 0 0 335px;
+}
+
